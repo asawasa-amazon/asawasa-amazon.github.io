@@ -29,7 +29,7 @@ amazon_website/
 1. **创建 GitHub 仓库**
    - 登录 GitHub
    - 点击右上角 "+" → "New repository"
-   - 输入仓库名称（例如：`amazon-store-website`）
+   - 输入仓库名称
    - 选择 Public（GitHub Pages 免费版需要公开仓库）
    - 点击 "Create repository"
 
@@ -40,7 +40,7 @@ amazon_website/
    git add .
    git commit -m "Initial commit"
    git branch -M main
-   git remote add origin https://github.com/你的用户名/amazon-store-website.git
+   git remote add origin https://github.com/asawasa-amazon/asawasa-amazon.github.io.git
    git push -u origin main
    ```
 
@@ -49,7 +49,7 @@ amazon_website/
    - 点击 "Settings" → 左侧菜单找到 "Pages"
    - 在 "Source" 下拉菜单中选择 "main" 分支
    - 点击 "Save"
-   - 等待几分钟，您的网站将在 `https://你的用户名.github.io/amazon-store-website/` 上线
+   - 等待几分钟，您的网站将在 `https://asawasa-amazon.github.io/asawasa-amazon/` 上线
 
 #### 方法二：Netlify
 
