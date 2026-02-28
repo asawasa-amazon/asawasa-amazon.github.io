@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Amazon Store - Home</title>
+    <title>ASAWASA - Home</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -34,9 +34,8 @@
             <div class="flex items-center justify-between">
                 <!-- Logo -->
                 <div class="flex items-center">
-                    <!-- TODO: Replace with your logo image path -->
-                    <a href="index.html" class="text-2xl font-bold text-gray-800">
-                        <span class="text-blue-600">My</span>Store
+                    <a href="index.html">
+                        <img src="images/logo.jpeg" alt="ASAWASA" class="h-10">
                     </a>
                 </div>
                 
@@ -65,16 +64,17 @@
     </header>
 
     <!-- Hero Section -->
-    <section class="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20 md:py-32">
-        <div class="container mx-auto px-4 text-center animate-fade-in-up">
+    <section class="relative text-white py-20 md:py-32 overflow-hidden">
+        <img src="images/top.jpg" alt="ASAWASA Hero" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div class="container mx-auto px-4 text-center animate-fade-in-up relative z-10">
             <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
                 Discover Quality Products
             </h1>
             <p class="text-xl md:text-2xl mb-8 text-blue-100">
                 Bringing Convenience and Quality to Your Life
             </p>
-            <!-- TODO: Replace with your Amazon store link -->
-            <a href="https://www.amazon.com/s?me=YOUR_STORE_ID" 
+            <a href="https://www.amazon.com/stores/asawasa/page/A84D92FE-4D55-4654-B799-52376A87BC48?lp_asin=B087WJ97CC&ref_=ast_bln&store_ref=bl_ast_dp_brandLogo_sto" 
                target="_blank" 
                class="inline-block bg-white text-blue-600 px-8 py-4 rounded-full font-bold text-lg hover:bg-gray-100 hover:scale-105 transition-all duration-300 shadow-lg">
                 Shop Now →
@@ -200,20 +200,16 @@
                     </ul>
                 </div>
                 
-                <!-- Social Media -->
+                <!-- Contact -->
                 <div>
-                    <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
-                    <div class="flex space-x-4">
-                        <!-- TODO: Replace with your social media links -->
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors text-2xl">📘</a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors text-2xl">📷</a>
-                        <a href="#" class="text-gray-400 hover:text-white transition-colors text-2xl">🐦</a>
-                    </div>
+                    <h3 class="text-xl font-semibold mb-4">Contact</h3>
+                    <p class="text-gray-400 mb-2">Email: 3172886648@qq.com</p>
+                    <p class="text-gray-400">Visit our Amazon store for all products</p>
                 </div>
             </div>
             
             <div class="border-t border-gray-700 pt-8 text-center text-gray-400">
-                <p>&copy; 2024 My Amazon Store. All rights reserved.</p>
+                <p>&copy; 2024 ASAWASA. All rights reserved.</p>
                 <p class="mt-2 text-sm">This website is a promotional page for our Amazon store. All product purchases should be made on the Amazon platform.</p>
             </div>
         </div>
